@@ -1,0 +1,34 @@
+{
+    "name": "neoxiel/filament-version-widget",
+    "description": "Un widget Filament pour afficher la version de déploiement via Deployer.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joffrey FERRY",
+            "email": "contact@neoxiel.com"
+        }
+    ],
+    "require-dev": {
+        "illuminate/http": "^12.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Neoxiel\\FilamentVersionWidget\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Neoxiel\\FilamentVersionWidget\\VersionWidgetServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "filament/filament": "^3.0|^4.0|^5.0"
+    },    
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "version": "1.0.0"
+}
