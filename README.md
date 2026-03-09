@@ -1,6 +1,6 @@
 # Filament Version Widget
 
-Un widget simple et efficace pour afficher les informations de déploiement (via **Deployer**) et l'environnement actuel directement sur votre tableau de bord Filament v4.
+Un widget simple et efficace pour afficher les informations de déploiement (via **Deployer**) et l'environnement actuel directement sur votre tableau de bord Filament.
 
 ## 🌟 Fonctionnalités
 
