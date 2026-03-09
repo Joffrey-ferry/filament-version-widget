@@ -11,18 +11,13 @@ Un widget simple et efficace pour afficher les informations de déploiement (via
 
 ## 📦 Installation
 
-### 1. Via un dépôt local (pendant le développement)
-
 Ajoutez le chemin du package dans le `composer.json` de votre projet Laravel :
 
 ```json
 "repositories": [
     {
-        "type": "path",
-        "url": "../packages/filament-version-widget",
-        "options": {
-            "symlink": true
-        }
+        "type": "vcs",
+        "url": "https://github.com/Joffrey-ferry/filament-version-widget"
     }
 ],
 
@@ -31,14 +26,7 @@ Ajoutez le chemin du package dans le `composer.json` de votre projet Laravel :
 Puis installez-le :
 
 ```bash
-composer require doe-jhon/filament-version-widget:@dev
-
-```
-
-### 2. Via GitHub (une fois publié)
-
-```bash
-composer require doe-jhon/filament-version-widget
+composer require neoxiel/filament-version-widget
 
 ```
 
