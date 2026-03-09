@@ -22,8 +22,9 @@ class VersionWidget extends Widget
         return cache()->remember('filament_version_data', 86400, function () {
             $releaseName = 'N/A';
             $paths = [
-                base_path('.dep/latest_release'),
+                base_path('../../.dep/latest_release'),
                 base_path('../.dep/latest_release'),
+                base_path('.dep/latest_release'),
             ];
 
             foreach ($paths as $path) {
